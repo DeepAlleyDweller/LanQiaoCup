@@ -11,10 +11,12 @@ public class 方格计数 {
 		for(a=1000;a>=0;a--) {
 			while(a*a+b*b<=R*R)b++;
 			b--;
-			count+=a*(b-tb);
+			count+=a*(b-tb);  
 			tb=b;
 		}
-		System.out.println(count*4);
+		System.out.println(count*4);//3137548
 	}
 }
 
+/*思路分析:只看第一象限,a点从x轴从右往左遍历,b从a点出发,往上走,直到刚要走出圆,这时候原点与a,a与b,形成一个矩形,
+count+=la*lb,然后a继续走,b继续走,又形成一个矩形,但这次lb就要减去上次b的y坐标.*/
