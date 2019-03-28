@@ -29,3 +29,8 @@ public class 复数幂1 {
 		//a为不含i的系数部分,b为含i的系数部分
 	}
 }
+
+/*
+作者：heyAmos 
+来源：CSDN 
+*/
