@@ -23,7 +23,7 @@ Math.abs(x)=|x|
 
 import java.util.Scanner;
 
-public class 螺旋折线_O {
+public class 螺旋折线 {
     static int x, y; 
     static int df = 0;  //static类型的df值用于记录步长
     public static void main(String[] args) {
